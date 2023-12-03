@@ -51,7 +51,7 @@ func parseGameHeader(s string) (gid int, game string) {
 }
 
 func main() {
-	fmt.Println("day 01")
+	fmt.Println("day 02")
 	file, _ := os.Open("input.txt")
 
 	scanner := bufio.NewScanner(file)
